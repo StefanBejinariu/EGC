@@ -1,0 +1,24 @@
+1. Ce este un viewport?
+	- modul si unghiul in care se vede scena in 2D.
+2. Ce reprezintă conceptul de frames per seconds din punctul de
+vedere al bibliotecii OpenGL?
+	- reprezinta numarul de cadre care se ruleaza intr-o secunda (minimul pentru ochiul uman este 25)
+3. Când este rulată metoda OnUpdateFrame()?
+	- este rulata si randata automat pe ecran la fiecare pas
+4. Ce este modul imediat de randare?
+
+5. Care este ultima versiune de OpenGL care acceptă modul imediat?	
+	- openGL 3.5
+
+6. Când este rulată metoda OnRenderFrame()?
+	- este rulata doar la calcule mai grele, la mai multe obiecte de randat
+7. De ce este nevoie ca metoda OnResize() să fie executată cel puțin
+o dată?
+	- pentru a se verifica in ce mod de rulare suntem
+8. Ce reprezintă parametrii metodei
+CreatePerspectiveFieldOfView() și care este domeniul de valori
+pentru aceștia?
+	- fieldOfView - campul vizual pe axa y,
+	- aspectRatio - 
+	- nearPlaneDistance - distanta pana la cel mai apropiat obiect
+	- farPlaneDistance - distanta pana la cel mai indepartat obiect
